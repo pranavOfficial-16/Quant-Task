@@ -143,7 +143,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Step 3 — View Outputs
+### Step 4 — View Outputs
 
 ```sh
 - Plots → in the `plots/` folder
