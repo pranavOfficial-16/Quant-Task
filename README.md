@@ -124,13 +124,20 @@ Tables include:
 
 ## 5. How to Run
 
-### Step 1 — Install Dependencies
+### Step 1 — Create virtual environment
+
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Step 2 — Install Dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-### Step 2 — Run the Complete Pipeline
+### Step 3 — Run the project
 
 ```sh
 python main.py
