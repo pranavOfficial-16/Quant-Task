@@ -23,7 +23,8 @@ def plot_prices(prices: pd.DataFrame, save_path: str) -> None:
     plt.legend()
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()
+    
 
 
 def plot_returns_hist(returns: pd.DataFrame, save_path: str) -> None:
@@ -37,7 +38,8 @@ def plot_returns_hist(returns: pd.DataFrame, save_path: str) -> None:
     plt.legend()
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()
+
 
 
 def plot_rolling_volatility(
@@ -54,7 +56,8 @@ def plot_rolling_volatility(
     plt.legend()
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()
+    
 
 
 def plot_drawdown_from_prices(
@@ -73,7 +76,8 @@ def plot_drawdown_from_prices(
     plt.ylabel("Drawdown")
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()
+
 
 
 def plot_correlation_matrix(returns: pd.DataFrame, save_path: str) -> None:
@@ -88,8 +92,8 @@ def plot_correlation_matrix(returns: pd.DataFrame, save_path: str) -> None:
     plt.title("Correlation Matrix")
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
-
+    plt.show()
+    
 
 def plot_optimal_weights(
     tickers: List[str], weights: np.ndarray, save_path: str
@@ -102,4 +106,4 @@ def plot_optimal_weights(
     plt.ylabel("Weight")
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()

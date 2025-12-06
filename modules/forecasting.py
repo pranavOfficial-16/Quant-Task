@@ -84,4 +84,4 @@ def plot_forecast(
     plt.legend()
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
-    plt.close()
+    plt.show()

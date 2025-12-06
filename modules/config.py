@@ -1,0 +1,5 @@
+TICKERS = ["TCS.NS", "INFY.NS", "HDFCBANK.NS", "RELIANCE.NS", "ICICIBANK.NS"]
+BENCHMARK_TICKER = "^NSEI"  # NIFTY 50 as benchmark
+START_DATE = "2015-01-01"
+END_DATE = None
+RISK_FREE_RATE = 0.0  # as per task: assume rf = 0
