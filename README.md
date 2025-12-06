@@ -58,7 +58,7 @@ quant_project/
 │ ├── forecasting.py # ARIMA forecasting + plotting
 │ └── db_handler.py # SQLite saving helper
 │
-└── main.py # Complete pipeline runner
+└── main.ipynb # Complete pipeline runner
 ```
 
 ---
