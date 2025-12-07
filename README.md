@@ -140,7 +140,7 @@ pip install -r requirements.txt
 ### Step 3 — Run the project
 
 ```sh
-python main.py
+Execute main.ipynb
 ```
 
 ### Step 4 — View Outputs
